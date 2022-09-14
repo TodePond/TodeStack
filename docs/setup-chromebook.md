@@ -11,6 +11,12 @@ Check it's installed by attempting to open the editor:
 ```
 code-server --auth none --open
 ```
+Click the 'Install code-server' button in the address bar to open the editor as a native window. You can then pin it to the taskbar.<br>
+Whenever you want to use the editor, run this command, and then click on your pinned shortcut!
+```
+code-server --auth none
+```
+
 If you want to **sync your settings** from the cloud, follow [this guide](/docs/coder-settings-sync.md).<br>
 If you want to install the **TodePond colour theme**, follow [this guide](/docs/coder-todepond-theme.md).
 
