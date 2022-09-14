@@ -14,7 +14,7 @@ code-server --auth none --open
 If you want to **sync your settings** from the cloud, follow [this guide](/docs/coder-settings-sync.md).<br>
 If you want to install the **TodePond colour theme**, follow [this guide](/docs/coder-todepond-theme.md).
 
-### Step 3: Deno
+## Step 3: Deno
 Install Deno:
 ```
 curl -fsSL https://deno.land/x/install/install.sh | sh
@@ -31,13 +31,13 @@ Check it's installed:
 deno --version
 ```
 
-### Step 4: Frogasaurus
+## Step 4: Frogasaurus
 Install Frogasaurus:
 ```
 deno install --allow-write=. --allow-read=. https://deno.land/x/frogasaurus/frogasaurus.js
 ```
 
-### Step 4: File Server
+## Step 5: File Server
 Install File Server:
 ```
 deno install --allow-read --allow-net https://deno.land/std/http/file_server.ts
